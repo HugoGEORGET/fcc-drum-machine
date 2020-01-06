@@ -1,0 +1,10 @@
+main {
+  display: flex;
+}
+
+.drum-pad {
+  padding: 3rem;
+  background-color: darkcyan;
+  color: azure;
+  border: solid white;
+}

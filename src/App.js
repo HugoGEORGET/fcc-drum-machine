@@ -62,7 +62,6 @@ function App() {
 
   return (
     <main id="drum-machine">
-      <section id="display"></section>
       {drumPads.map(drumPad => {
         return (
           <DrumPad
@@ -73,6 +72,7 @@ function App() {
           />
         );
       })}
+      <section id="display"></section>
     </main>
   );
 }
